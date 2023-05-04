@@ -42,9 +42,9 @@ module.exports = {
         'brand-pink-1': '#E15A97'
       },
       backgroundImage: {
-        'robust-tech': "url('src/assets/img/home/robust-tech.png')",
-        'communication': "url('src/assets/img/home/communication.jpg')",
-        'flexibility': "url('src/assets/img/home/flexibility.jpg')",
+        'robust-tech': "url('@/assets/img/home/robust-tech.png')",
+        'communication': "url('@/assets/img/home/communication.jpg')",
+        'flexibility': "url('@/assets/img/home/flexibility.jpg')",
       },
       minHeight: {
         'agile-innovation-section': '500px',
