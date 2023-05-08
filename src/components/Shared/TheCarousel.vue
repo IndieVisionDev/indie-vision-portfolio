@@ -1,7 +1,6 @@
 <template>
   <carousel
     :items-to-show="1"
-    class="h-full"
     :wrapAround="true"
     :mouseDrag="true"
     :autoplay="4000"
