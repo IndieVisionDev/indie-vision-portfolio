@@ -1,15 +1,17 @@
 <template>
   <header class="flex items-center justify-between p-4 bg-brand-dark-1">
-    <router-link :to="{ name: 'Home' }" class="text-2xl text-white" active-class="text-brand-pink-1">Indie Vision</router-link>
+    <router-link :to="{ name: 'Home' }" class="text-2xl text-white" active-class="text-brand-pink-1">
+      <img src="@/assets/logo.svg" alt="Indie Vision Logo">
+    </router-link>
     <nav class="relative">
       <ul
-        class="flex space-x-4 md:flex"
+        class="hidden space-x-4 md:flex"
       >
         <li v-for="(link, index) in links" :key="index">
           <router-link :to="link.name" class="text-brand-green-1 hover:text-brand-pink-1" active-class="text-brand-pink-1">{{ link.title }}</router-link>
         </li>
       </ul>
-      <div class="md:hidden">
+      <div class="bg-purple-400 md:hidden">
         <button
           class="absolute right-0 transform -translate-y-1/2 top-1/2"
           @click="toggleMenu"

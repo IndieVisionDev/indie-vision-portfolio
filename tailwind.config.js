@@ -42,9 +42,12 @@ module.exports = {
         'brand-pink-1': '#E15A97'
       },
       backgroundImage: {
-        'robust-tech': "url('@/assets/img/home/robust-tech.png')",
-        'communication': "url('@/assets/img/home/communication.jpg')",
-        'flexibility': "url('@/assets/img/home/flexibility.jpg')",
+        'home-0': "url('@/assets/img/home/robust-tech.png')",
+        'home-1': "url('@/assets/img/home/communication.jpg')",
+        'home-2': "url('@/assets/img/home/flexibility.png')",
+      },
+      maxWidth: {
+        'carousel-card': '600px',
       },
       minHeight: {
         'agile-innovation-section': '500px',

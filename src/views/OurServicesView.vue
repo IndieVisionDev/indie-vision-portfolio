@@ -376,6 +376,6 @@ export default {
 }
 
 .upcomingTechnologiesImgGroup-enter-active {
-  transition: all 5s ease;
+  transition: all 3s ease;
 }
 </style>

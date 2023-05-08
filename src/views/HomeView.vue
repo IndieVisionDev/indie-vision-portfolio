@@ -1,10 +1,9 @@
 <template>
-  <div class="container px-4 py-8 mx-auto bg-pink-300">
+  <div>
     <!-- <h1  class="text-center">Indie Vision</h1>
     <h2 class="text-center">Introduction</h2> -->
 
-    <the-carousel class="flex flex-grow h-full" :slideData="topics" />
-
+    <the-carousel class="flex flex-grow h-full" :slideData="topics" slideImgPrefix="home" />
   </div>
 </template>
 
