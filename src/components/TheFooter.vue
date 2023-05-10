@@ -1,30 +1,30 @@
 <template>
-    <footer class="bg-brand-dark-1 text-white py-6">
-      <div class=" flex flex-col items-center md:flex-row md:justify-evenly">
-        <div class="mb-4 md:mb-0 ml-4">
+    <footer class="py-6 text-white bg-brand-dark-1">
+      <div class="flex flex-col items-center md:flex-row md:justify-evenly">
+        <div class="mb-4 ml-4 md:mb-0">
           Copyright ©2023 Indie Vision. All rights reserved.
         </div>
-        <div class="mb-4 md:mb-0 space-x-4">
+        <div class="mb-4 space-x-4 md:mb-0">
           <a
+            href="https://github.com/IndieVisionDev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white transition-colors hover:text-brand-green-1"
+          > Github <font-awesome-icon icon="code" />
+          </a>
+          <!-- <a
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white hover:text-brand-green-1 transition-colors"
-          > Github <font-awesome-icon icon="code" />
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-white hover:text-brand-green-1 transition-colors"
+            class="text-white transition-colors hover:text-brand-green-1"
           >
           LinkedIn <font-awesome-icon icon="handshake" /> 
-          </a>
+          </a> -->
         </div>
         <div>
           <router-link
             :to="{ name: 'ContactUs' }"
-            class=" text-white hover:text-brand-pink-1 transition-colors py-2 mr-4"
+            class="py-2 mr-4 text-white transition-colors hover:text-brand-pink-1"
           >
             Contact Us
           </router-link>
