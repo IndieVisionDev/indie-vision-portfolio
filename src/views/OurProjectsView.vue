@@ -54,8 +54,9 @@
 </template>
 
 <script>
-import VueChartjsChart from '@/components/Shared/charts/VueChartjsChart.vue'
-import TheChips from '@/components/Shared/TheChips.vue'
+import VueChartjsChart from '@/components/Shared/charts/VueChartjsChart.vue';
+import TheChips from '@/components/Shared/TheChips.vue';
+import Projects from '@/assets/img/projects/projects.const';
 
 export default {
   components: {
@@ -68,21 +69,21 @@ export default {
       projectCatalogContent: true
     }
     this.projects = [
+      // {
+      //   imagePath: Projects.JobSearch,
+      //   name: 'Jobs Portal',
+      //   chips: [
+      //     { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
+      //     { name: 'Vue', url: 'https://en.wikipedia.org/wiki/Vue.js' },
+      //     { name: 'Tailwind CSS', url: 'https://en.wikipedia.org/wiki/Tailwind_CSS' },
+      //     { name: 'Vitest', url: 'https://vitest.dev/' },
+      //     { name: 'Pinia', url: 'https://en.wikipedia.org/wiki/Pinia' },
+      //     { name: 'Rxjs', url: 'https://rxjs.dev/guide/overview' }
+      //   ],
+      //   url: ''
+      // },
       {
-        imagePath: 'src/assets/img/projects/job-search.png',
-        name: 'Jobs Portal',
-        chips: [
-          { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
-          { name: 'Vue', url: 'https://en.wikipedia.org/wiki/Vue.js' },
-          { name: 'Tailwind CSS', url: 'https://en.wikipedia.org/wiki/Tailwind_CSS' },
-          { name: 'Vitest', url: 'https://vitest.dev/' },
-          { name: 'Pinia', url: 'https://en.wikipedia.org/wiki/Pinia' },
-          { name: 'Rxjs', url: 'https://rxjs.dev/guide/overview' }
-        ],
-        url: ''
-      },
-      {
-        imagePath: 'src/assets/img/projects/not-trello.png',
+        imagePath: Projects.NotTrello,
         name: 'Not Trello',
         chips: [
           { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
@@ -97,7 +98,7 @@ export default {
         url: 'cstrello-client.firebase.app.com'
       },
       {
-        imagePath: 'src/assets/img/projects/letter-invasion.png',
+        imagePath: Projects.LetterInvasion,
         name: 'Letter Invasion',
         chips: [
           { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
@@ -106,13 +107,13 @@ export default {
         url: 'https://alien-invasions.firebaseapp.com/'
       },
       {
-        imagePath: 'src/assets/img/projects/tick-tac-toe.png',
+        imagePath: Projects.TickTacToe,
         name: 'TickTac Toe',
         chips: [{ name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' }],
         url: 'https://codepen.io/GrantKnaver/full/RpqGpM/'
       },
       {
-        imagePath: 'src/assets/img/projects/r-book.png',
+        imagePath: Projects.RBook,
         name: 'Recipe Book',
         chips: [
           { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
@@ -127,7 +128,7 @@ export default {
         url: 'https://recipebook-77068.firebaseapp.com/'
       },
       {
-        imagePath: 'src/assets/img/projects/animations.png',
+        imagePath: Projects.AngularAnimations,
         name: 'Angular Animatorn',
         chips: [
           { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },
@@ -136,7 +137,7 @@ export default {
         url: 'https://animations-1be9d.firebaseapp.com/'
       },
       {
-        imagePath: 'src/assets/img/projects/simon.png',
+        imagePath: Projects.Simon,
         name: 'Simon',
         chips: [
           { name: 'JavaScript', url: 'https://en.wikipedia.org/wiki/JavaScript' },

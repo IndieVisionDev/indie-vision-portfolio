@@ -7,7 +7,7 @@
     :transition="3000"
   >
     <slide
-      :class="`bg-${slideImgPrefix}-${index}`"
+      :class="slideData[index].slideBackground"
       class="flex h-full bg-center bg-no-repeat"
       v-for="(slide, index) in slideData"
       :key="index"
@@ -30,7 +30,7 @@
 
 <script>
 import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { Carousel, Slide } from 'vue3-carousel'
 
 export default {
   props: {
@@ -43,16 +43,21 @@ export default {
       required: true
     }
   },
+  data() {
+    return {
+      test: 'bg-home-1'
+    }
+  },
+  methods: {
+    testMethod(index) {
+      console.log(`bg-home-${index}`)
+      return `bg-home-${1}`;
+    }
+  },
   components: {
     Carousel,
     Slide
-    // Pagination,
-    // Navigation
   },
-  data() {
-    return {}
-  },
-  methods: {}
 }
 </script>
 

@@ -134,6 +134,7 @@
 
 <script>
 import { Waypoint } from 'vue-waypoint'
+import Logos from '@/assets/img/logos/logos.const';
 export default {
   mounted() {
     this.startMountedAnimations()
@@ -161,72 +162,72 @@ export default {
       currentTechnologies: [
         {
           name: 'Angular',
-          logo: 'src/assets/img/logos/angular.svg',
+          logo: Logos.Angular,
           description:
             'Angular (also referred to as Angular 2+) is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Angular is a Single Page Application (SPA) Framework which is used for creating Fast Web Applications.'
         },
         {
           name: 'NgRx',
-          logo: 'src/assets/img/logos/ngrx.svg',
+          logo: Logos.NgRx,
           description:
             'NgRx Store provides reactive state management for Angular apps inspired by Redux. Unify the events in your application and derive state using RxJS.'
         },
         {
           name: 'RxJS',
-          logo: 'src/assets/img/logos/RxJs_Logo_Basic.svg',
+          logo: Logos.RxJS,
           description:
             'A library for composing asynchronous and event-based programs by using observable sequences.'
         },
         {
           name: 'Vue',
-          logo: 'src/assets/img/logos/Vue.js_Logo_2.svg',
+          logo: Logos.Vue,
           description:
             ' a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex'
         },
         {
           name: 'Pinia',
-          logo: 'src/assets/img/logos/pinia-logo.svg',
+          logo: Logos.Pinia,
           description:
             'uses the new reactivity system in Vue 3 to build an intuitive and fully typed state management library. Pinia’s success can be attributed to its unique features (extensibility, store module organization, grouping of state changes, multiple stores creation, and so on) for managing stored data.'
         },
         {
           name: 'Vitest',
-          logo: 'src/assets/img/logos/vitest_logo.svg',
+          logo: Logos.Vitest,
           description: 'A blazing fast unit test framework powered by Vite.'
         },
         {
           name: 'Node',
-          logo: 'src/assets/img/logos/node-js-2-svgrepo-com.svg',
+          logo: Logos.Node,
           description:
             'A cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.'
         },
         {
           name: 'Express',
-          logo: 'src/assets/img/logos/expressjs-icon.svg',
+          logo: Logos.Express,
           description:
             'A cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.'
         },
         {
           name: 'MongoDB',
-          logo: 'src/assets/img/logos/MongoDB_Logo.svg',
+          logo: Logos.MongoDB,
           description:
             'An American software company that develops and provides commercial support for the source-available database MongoDB, a NoSQL database that stores data in JSON-like documents with flexible schemas.'
         },
         {
           name: 'Mongoose',
-          logo: 'src/assets/img/logos/Mongoose.svg',
+          logo: Logos.Mongoose,
           description:
             'A JavaScript object-oriented programming library that creates a connection between MongoDB and the Node.js JavaScript runtime environment.'
         },
         {
           name: 'Firebase',
-          logo: 'src/assets/img/logos/Built_with_Firebase_Logo_Dark.svg',
+          logo: Logos.Firebase,
           description:
             'A set of backend cloud computing services and application development platforms provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.'
         },
         {
           name: 'Socket.IO',
-          logo: 'src/assets/img/logos/socketio_logo_icon_only.svg',
+          logo: Logos.SocketIO,
           description:
             'An event-driven library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers.'
         }
@@ -256,18 +257,17 @@ export default {
       }
     },
     onScrollToUpcomingTechnologies(waypointState) {
-      console.log('waypointState', waypointState);
       if (waypointState.going === 'IN') {
         this.upcomingTechnologies = [
           {
             name: 'React',
-            logo: 'src/assets/img/logos/icons8-react.svg',
+            logo: Logos.React,
             description:
               'React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies.'
           },
           {
             name: 'Flutter',
-            logo: 'src/assets/img/logos/flutter.svg',
+            logo: Logos.Flutter,
             description:
               'Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.'
           }

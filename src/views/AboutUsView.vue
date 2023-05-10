@@ -79,6 +79,7 @@
 
 <script>
 import { Waypoint } from 'vue-waypoint';
+import PastClients from '@/assets/img/past-clients/past-clients.const';
 export default {
   mounted() {
     this.hasSlidText.ourValues = true;
@@ -136,21 +137,21 @@ export default {
           {
             id: 1,
             name: 'Amtrak',
-            image: 'src/assets/img/past-clients/amtrak-resize.png',
+            image: PastClients.Amtrak,
             description: 'The national passenger railroad company of the United States',
             url: 'https://www.amtrak.com/home'
           },
           {
             id: 2,
             name: 'Labcorp',
-            image: 'src/assets/img/past-clients/labcorp-resize.png',
+            image: PastClients.LabCorp,
             description: 'One of the largest clinical laboratory networks in the world.',
             url: 'https://www.labcorp.com/'
           },
           {
             id: 3,
             name: 'Lockheed Martin',
-            image: 'src/assets/img/past-clients/lockheedMartin-resize.png',
+            image: PastClients.LockheedMartin,
             description:
               'An American aerospace, arms, defense, information security, and technology corporation.',
             url: 'https://www.lockheedmartin.com/en-us/index.html'
