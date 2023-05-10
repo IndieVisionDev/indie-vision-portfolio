@@ -20,10 +20,8 @@
             Communication and flexibility are the cornerstones of our approach, ensuring seamless
             collaboration with clients and smooth transitions between project phases. Our commitment
             to open and transparent communication ensures that our clients are always in the loop,
-            making it easy for us to accommodate any changes or additional requirements. With [Your
-            Company Name], you can be confident that we will go the extra mile to deliver solutions
-            that not only meet but exceed your expectations, no matter the complexity of the
-            project.
+            making it easy for us to accommodate any changes or additional requirements. With Indie Vision, you can be confident that we will go the extra mile to deliver solutions
+            that meet and exceed your expectations.
           </p>
         </Transition>
       </div>
@@ -52,21 +50,21 @@ export default {
         {
           title: 'Robust Stack',
           description:
-            'At Indie Vision, we pride ourselves on working with a robust and versatile technology stack to deliver the most efficient, reliable, and high-performance solutions to our clients. Our team of experts is well-versed in the latest industry trends and committed to staying ahead of the curve, ensuring that we provide cutting-edge solutions tailored to your unique needs.',
+            'We pride ourselves on working with a robust and versatile technology stack to deliver the most efficient, reliable, and high-performance solutions to our clients. Our team of experts is well-versed in the latest industry trends and committed to staying ahead of the curve, ensuring that we provide cutting-edge solutions tailored to your unique needs.',
           url: '@/assets/img/home/robust-tech.png',
           slideBackground: 'bg-home-0',
         },
         {
           title: 'Communication',
           description:
-            'At Indie Vision, we believe that effective communication is the key to successful projects and satisfied clients. We pride ourselves on our exceptional communication skills, ensuring that every interaction—whether between clients, developers, or other team members—is clear, efficient, and productive.',
+            'At the core of our values is the belief that effective communication is the key to unlocking successful projects and satisfied clients. Exceptional communication skills are a source of pride for us, and we make sure that every interaction is clear, efficient, and productive. Our focus on seamless communication between clients, developers, and other team members enables us to deliver exceptional results every time.',
           url: '@/assets/img/home/communication.jpg',
           slideBackground: 'bg-home-1',
         },
         {
           title: 'Flexibility',
           description:
-            'At Indie Vision, we understand that every client and project is unique, which is why we pride ourselves on our unmatched flexibility. Our adaptive approach allows us to tailor our services to your specific needs, ensuring that you get the best possible results, no matter the size, scope, or complexity of your project.',
+            "At the heart of our philosophy is the understanding that each client and project is unique. Our unmatched flexibility allows us to adapt to your specific needs, ensuring that you receive the best possible results, regardless of the project's size, scope, or complexity. We take pride in our ability to tailor our services to your requirements, providing you with a personalized experience that exceeds your expectations.",
           url: '@/assets/img/home/flexibility.jpg',
           slideBackground: 'bg-home-2',
         }
