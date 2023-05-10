@@ -1,7 +1,7 @@
 <template>
   <header class="flex items-center justify-between p-4 bg-brand-dark-1">
     <router-link :to="{ name: 'Home' }" class="text-2xl text-white" active-class="text-brand-pink-1">
-      <img src="@/assets/logo.svg" alt="Indie Vision Logo">
+      <img class="max-w-on-mobile-logo md:max-w-none" src="@/assets/logo.svg" alt="Indie Vision Logo">
     </router-link>
     <nav class="relative">
       <ul

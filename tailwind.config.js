@@ -47,6 +47,7 @@ module.exports = {
         'home-2': "url('@/assets/img/slides/flexibility.png')",
       },
       maxWidth: {
+        'on-mobile-logo': '100px',
         'carousel-card': '600px',
       },
       minHeight: {
