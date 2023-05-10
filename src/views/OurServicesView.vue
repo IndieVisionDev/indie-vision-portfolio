@@ -38,7 +38,7 @@
           <p class="w-11/12 pb-4 md:pb-4 md:w-8/12 text-brand-grey-1">
             Our development methodologies are designed to provide time and cost savings. By
             collaborating with you, we develop solutions that maintain open and transparent
-            communication throughout all stages of the development proces
+            communication throughout all stages of the development process.
           </p>
         </span>
       </Transition>

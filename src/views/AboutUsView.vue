@@ -154,7 +154,7 @@ export default {
             image: PastClients.LockheedMartin,
             description:
               'An American aerospace, arms, defense, information security, and technology corporation.',
-            url: 'https://www.lockheedmartin.com/en-us/index.html'
+            url: 'https://www.lockheedmartin.com/'
           }
         ]
       }

@@ -85,7 +85,7 @@
             </div>
             <div class="mb-4">
               <font-awesome-icon class="mr-2 text-brand-pink-1" icon="envelope" />
-              <span class="text-white">info@indievision.com</span>
+              <span class="text-white">indievision.dev@protonmail.com</span>
             </div>
           </div>
         </div>

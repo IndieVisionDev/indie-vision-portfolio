@@ -95,7 +95,7 @@ export default {
           { name: 'MongoDB', url: 'https://en.wikipedia.org/wiki/MongoDB' },
           { name: 'Firebase', url: 'https://en.wikipedia.org/wiki/Firebase' }
         ],
-        url: 'cstrello-client.firebase.app.com'
+        url: 'https://cstrello-client.firebaseapp.com'
       },
       {
         imagePath: Projects.LetterInvasion,
@@ -213,7 +213,7 @@ export default {
             backgroundColor: [
               'rgba(66, 184, 131, 0.5)',
               'rgba(225, 90, 151, 0.5)',
-              'rgba(229, 231, 235, 0.5)'
+              'rgba(75, 85, 99, 0.5)'
             ],
             data: [6, 3, 1, 1, 1, 2, 2, 2, 1, 5]
           }
