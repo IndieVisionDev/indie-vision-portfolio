@@ -235,14 +235,6 @@ export default {
       upcomingTechnologies: []
     }
   },
-  computed: {
-    calculateAgileContentInnovationTransition() {
-      // `this` points to the component instance
-      return this.componentWidth >= 768
-        ? 'agileContentInnovationSlideY'
-        : 'agileContentInnovationSlideY'
-    }
-  },
   methods: {
     openDialog(name, description) {
       this.openedDialog = true

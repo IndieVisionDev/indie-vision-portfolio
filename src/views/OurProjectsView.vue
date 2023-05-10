@@ -12,7 +12,7 @@
           <p class="w-11/12 mb-8 text-center text-brand-grey-1 lg:max-w-3xl">
             Welcome to Indie Vision's projects page, where you can explore our diverse range of
             completed software development projects. Each project we've undertaken highlights our
-            commitment to delivering outstanding solutions that cater to our clients' unique needs.
+            commitment to delivering outstanding solutions that cater to our client's unique needs.
           </p>
 
           <p class="w-11/12 mb-12 text-center text-brand-grey-1 lg:max-w-3xl">
