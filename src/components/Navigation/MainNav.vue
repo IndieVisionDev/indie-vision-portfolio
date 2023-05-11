@@ -23,13 +23,13 @@
         </li>
       </ul>
       <div class="bg-purple-400 md:hidden">
-        <button class="absolute right-0 transform -translate-y-1/2 top-1/2" @click="toggleMenu">
-          <span class="hamburger"></span>
-        </button>
+        <div class="absolute right-0 transform -translate-y-1/2 top-1/2" @click="toggleMenu">
+          <span class="cursor-pointer hamburger" id="dropdown-menu"></span>
+        </div>
+
         <ul
           class="absolute right-0 z-50 w-48 py-2 mt-2 bg-white rounded-lg shadow-xl"
           v-show="showMenu"
-          v-closable
         >
           <li v-for="(link, index) in links" :key="index" class="px-4 py-2 hover:bg-brand-green-1">
             <router-link
@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import CloseableDirective from '@/directives/v-closable';
+import ClickOutside from 'vue-click-outside'
 export default {
   name: 'MainNav',
   data() {
@@ -60,28 +60,27 @@ export default {
       ]
     }
   },
-  directives: {
-    closable: CloseableDirective,
-  },
-  methods: {
-    toggleMenu() {
-      this.showMenu = !this.showMenu;
-    },
-    openMenu() {
-      console.log('openMenu');
-      this.showMenu = true;
-      document.documentElement.addEventListener('click', this.closeMenuOnClickOutside, false);
-    },
-    closeMenu() {
-      console.log('closeMenu');
-      this.showMenu = false;
-      document.documentElement.removeEventListener('click', this.closeMenuOnClickOutside, false);
-    },
-    closeMenuOnClickOutside(event) {
-      if (event.target === document.documentElement) {
-        this.showMenu = false;
+  watch: {
+    showMenu(showMenu) {
+      if (showMenu) {
+        document.addEventListener('click', this.closeOutside);
       }
     }
+  },
+  methods: {
+    closeOutside(event) {
+      if (!document.getElementById('dropdown-menu').contains(event.target)) {
+        this.showMenu = false;
+      } else {
+        this.showMenu = true
+      }
+    },
+    toggleMenu() {
+      this.showMenu = !this.showMenu
+    },
+  },
+  directives: {
+    ClickOutside
   }
 }
 </script>
