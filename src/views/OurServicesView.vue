@@ -43,7 +43,7 @@
         </span>
       </Transition>
       <Waypoint @change="onScrollToCurrentTechnologies" />
-      <div class="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 md:pb-12">
+      <div class="grid w-full grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-4 md:pb-12">
         <div
           :class="{
             'slide-in-from-left': animations.currentTechnologies
