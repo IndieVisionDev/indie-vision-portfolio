@@ -78,9 +78,6 @@ export default {
       this.showMenu = !this.showMenu;
     },
   },
-  directives: {
-    ClickOutside
-  }
 }
 </script>
 
