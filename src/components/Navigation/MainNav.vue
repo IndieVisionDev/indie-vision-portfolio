@@ -29,7 +29,7 @@
         <ul
           class="absolute right-0 z-50 w-48 py-2 mt-2 bg-white rounded-lg shadow-xl"
           v-show="showMenu"
-          @click="openMenu"
+          v-closable
         >
           <li v-for="(link, index) in links" :key="index" class="px-4 py-2 hover:bg-brand-green-1">
             <router-link
@@ -46,6 +46,7 @@
 </template>
 
 <script>
+import CloseableDirective from '@/directives/v-closable';
 export default {
   name: 'MainNav',
   data() {
@@ -59,7 +60,9 @@ export default {
       ]
     }
   },
-
+  directives: {
+    closable: CloseableDirective,
+  },
   methods: {
     toggleMenu() {
       this.showMenu = !this.showMenu;

@@ -19,7 +19,7 @@
             class="w-11/12 h-auto pl-6 mb-6 cursor-pointer md:pl-8 md:w-7/12 md:pb-6"
           />
         </Transition>
-        <Transition name="agileContentInnovationSlideY">
+        <!-- <Transition name="agileContentInnovationSlideY">
           <div v-if="hasSlideText.agileContentInnovation" class="flex flex-col items-center">
             <p class="w-11/12 text-center text-brand-grey-1 md:w-8/12">
               Indie Vision boasts expertise in a diverse range of open source tools, allowing us to
@@ -28,7 +28,7 @@
               innovative technologies.s.
             </p>
           </div>
-        </Transition>
+        </Transition> -->
       </div>
     </section>
     <section class="flex flex-col items-center pt-12">
