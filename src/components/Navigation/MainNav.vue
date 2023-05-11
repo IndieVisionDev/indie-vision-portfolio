@@ -46,7 +46,6 @@
 </template>
 
 <script>
-import ClickOutside from 'vue-click-outside'
 export default {
   name: 'MainNav',
   data() {
@@ -72,11 +71,11 @@ export default {
       if (!document.getElementById('dropdown-menu').contains(event.target)) {
         this.showMenu = false;
       } else {
-        this.showMenu = true
+        this.showMenu = true;
       }
     },
     toggleMenu() {
-      this.showMenu = !this.showMenu
+      this.showMenu = !this.showMenu;
     },
   },
   directives: {
@@ -108,9 +107,5 @@ export default {
 
 .hamburger::after {
   transform: translateY(3px);
-}
-
-.test {
-  color: purple;
 }
 </style>
