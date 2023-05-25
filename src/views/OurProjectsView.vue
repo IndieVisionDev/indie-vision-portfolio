@@ -144,6 +144,14 @@ export default {
           { name: 'SCSS', url: 'https://en.wikipedia.org/wiki/Sass_(style_sheet_language)' }
         ],
         url: 'https://codepen.io/GrantKnaver/full/OpYYjx',
+      },
+      {
+        imagePath: Projects.RxJS,
+        name: 'RxJS Collections',
+        chips: [
+          { name: 'Rxjs', url: 'https://rxjs.dev/guide/overview' }
+        ],
+        url: 'https://rxjs-henxta.stackblitz.io',
       }
     ]
   },

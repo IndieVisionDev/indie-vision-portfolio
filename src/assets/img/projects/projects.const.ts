@@ -5,6 +5,7 @@ import NotTrello from './not-trello.png';
 import RBook from './r-book.png';
 import Simon from './simon.png';
 import TickTacToe from './tick-tac-toe.png'
+import RxJS from './rxJS-logo.png'
 
 const Projects = {
     AngularAnimations,
@@ -13,7 +14,8 @@ const Projects = {
     NotTrello,
     RBook,
     Simon,
-    TickTacToe
+    TickTacToe,
+    RxJS
 };
 
 export default Projects;
